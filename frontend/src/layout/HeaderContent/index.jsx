@@ -20,18 +20,18 @@ export default function HeaderContent() {
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="http://www.taobao.com/"
+          href="#"
         >
-          2nd menu item
+        Menu
         </a>
       </Menu.Item>
       <Menu.Item key={`${uniqueId()}`}>
         <a
           target="_blank"
           rel="noopener noreferrer"
-          href="http://www.tmall.com/"
+          href="#"
         >
-          3rd menu item
+           menu item
         </a>
       </Menu.Item>
     </Menu>
