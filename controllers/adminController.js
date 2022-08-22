@@ -25,7 +25,7 @@ exports.list = async (req, res) => {
     // Calculating total pages
     const pages = Math.ceil(count / limit);
 
-    // Getting Pagination Object
+    // Getting Pagination Object pagination 
     const pagination = { page, pages, count };
     if (count > 0) {
       for (let admin of result) {
